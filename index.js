@@ -24,6 +24,25 @@ exports.decorateConfig = (config) => {
       '#ffb2ff', // magenta (bright)
       '#b7f0ff', // cyan (bright)
       foregroundColor // white (foreground color)
-    ]
+    ],
+    css: `
+      ${config.css || ''}
+      .header_header {
+        top: 0;
+        right: 0;
+        left: 0;
+      }
+      .tabs_list {
+        background-color: rgb(51, 51, 51) !important;
+        border-bottom-color: rgba(0,0,0,.15) !important;
+      }
+      .tab_tab.tab_active {
+        background-color: ${backgroundColor};
+        border-color: rgba(0,0,0,.27) !important;
+      }
+      .tab_tab.tab_active::before {
+        border-bottom-color: ${backgroundColor};
+      }
+    `
   })
 }
