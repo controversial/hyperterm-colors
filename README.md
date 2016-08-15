@@ -1,12 +1,5 @@
-# hyperterm-colors
+# hyperterm-colors-dark
 
-My favourite terminal color scheme, ported over to [HyperTerm][hyperterm]
+The color scheme of [ryanseys/hyperterm-colors](https://github.com/ryanseys/hyperterm-colors) with the style of [mdo/hyperterm-atom-dark](https://github.com/mdo/hyperterm-atom-dark).
 
-## Install
-
-Add `'hyperterm-colors'` to the `plugins` list in your `~/.hyperterm.js` config file.
-
-![Screenshot][screenshot]
-
-[hyperterm]: https://hyperterm.org/
-[screenshot]: https://raw.githubusercontent.com/ryanseys/hyperterm-colors/master/screenshot.png
+For personal use, not made to be easily installable
